@@ -19,7 +19,7 @@ class DashboardProvider extends ChangeNotifier {
     employeeDirectory = [
       {"name": "Talha", "role": "Manager", "availability": "Available"},
       {"name": "Ali Khan", "role": "Designer", "availability": "Unavailable"},
-      {"name": "Sarah Ali", "role": "Developer", "availability": "Available"},
+      {"name": "Nida", "role": "Developer", "availability": "Available"},
       {"name": "Daniyal ", "role": "Analyst", "availability": "Available"},
       {"name": "Ahmad Jan ", "role": "Worker", "availability": "Unavailable"},
     ];
