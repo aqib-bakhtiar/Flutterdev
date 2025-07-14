@@ -14,7 +14,7 @@ class NotificationDialog {
               const SizedBox(height: 16),
               ElevatedButton(
                 onPressed: () {
-                  Navigator.pop(context); // Close the dialog
+                  Navigator.pop(context); 
                 },
                 style: ElevatedButton.styleFrom(
                   backgroundColor: Colors.blue,

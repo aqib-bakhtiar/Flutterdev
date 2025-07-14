@@ -26,13 +26,13 @@ class AccountCircleDialog {
               ),
               const SizedBox(height: 16),
               const Text(
-                "worker@gmail.com", // Replace with dynamic email if needed
+                "worker@gmail.com", 
                 style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
               ),
               const SizedBox(height: 16),
               ElevatedButton(
                 onPressed: () {
-                  Navigator.pop(context); // Close the dialog
+                  Navigator.pop(context); 
                 },
                 style: ElevatedButton.styleFrom(
                   backgroundColor: Colors.blue,

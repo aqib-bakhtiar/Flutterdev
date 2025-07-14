@@ -13,11 +13,11 @@ class ChatProvider extends ChangeNotifier {
     if (text.trim().isEmpty) return;
     _messages.add(ChatMessage(message: text, isUser: isUser));
     messageController.clear();
-    notifyListeners();
+    notifyListeners(); //<<<<<Tells all widgets listening to this provider that the data has changed.>>>>
   }
 
   @override
-  void dispose() {
+  void dispose() {  //<<<<<Prevents memory leaks.when app s closed>>>>>
     messageController.dispose();
     super.dispose();
   }

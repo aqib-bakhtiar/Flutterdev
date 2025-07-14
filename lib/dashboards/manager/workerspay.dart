@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class MyWorkerPay extends StatelessWidget {
   const MyWorkerPay({super.key});
 
-  // Example data: present days for each worker
+  // <<<<<present days for each worker which will multiply by salary >>>>>
   final List<int> presentDays = const [22, 20, 18, 25, 21];
 
   @override
@@ -25,9 +25,9 @@ class MyWorkerPay extends StatelessWidget {
             const SizedBox(height: 20),
             Expanded(
               child: ListView.builder(
-                itemCount: presentDays.length, // Use the length of your data
+                itemCount: presentDays.length, 
                 itemBuilder: (context, index) {
-                  int salaryPerDay = 1000; // Example salary per day
+                  int salaryPerDay = 1000; 
                   int present = presentDays[index];
                   int totalSalary = present * salaryPerDay;
                   return Card(
